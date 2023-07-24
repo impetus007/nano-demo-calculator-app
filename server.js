@@ -21,6 +21,9 @@ baseRouter.post('/add', (req, res) => {
 baseRouter.post('/subtract', (req, res) => {
     res.json({ "": null });
 });
+baseRouter.post('/subtract', (req, res) => {
+    res.json({ "": null });
+});
 
 app.use(baseUrl, baseRouter);
 app.listen(PORT, () => {
